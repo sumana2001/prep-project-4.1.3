@@ -5,6 +5,7 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
 import DatePicker from "react-modern-calendar-datepicker";
+import ShortestRoute from '../../components/ShortestRoute';
 
 function TripPlanner() {
 
@@ -132,6 +133,7 @@ function TripPlanner() {
             <h2 style={{
                 marginBottom:'8em'
             }}>Best Routes</h2>
+            <ShortestRoute source={source} dest={dest}/>
             <h2 style={{
                 marginBottom:'8em'
             }}>Popular Restaraunts</h2>
